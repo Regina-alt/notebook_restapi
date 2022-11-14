@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    position: relative;
+    bottom: 40%;
+    margin-right: 10px;
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+
+.card-body p{
+    position: relative;
+    left: 25%;
+    height: 5%;
+    margin-top: 20px;
+
+}
+
+.card{
+    height: 300px;
+    width: 500px;
+    margin: 10px;
+}
+
+.card-link{
+    position: relative;
+    bottom: 20%;
+    padding: 10px;
+    border-radius: 26px;
+    box-shadow: 0 0 10px rgba(83, 83, 83, 0.7);
+    text-decoration: none;
+    color: black;
+}
+
+.card-link:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.header a{
+    position: relative;
+    float: right;
+    margin-right: 40px;
+    padding: 10px;
+    border-radius: 26px;
+    box-shadow: 0 0 10px rgba(83, 83, 83, 0.7);
+    text-decoration: none;
+    color: black;
+}
+
+.header a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.pagination{
+    position: relative;
+    left: 16.5%;
+}
+
+.page-link{
+    color: black;
+}
+
+.form{
+    width: 500px;
+    position: relative;
+    left: 34%;
+    margin-top: 70px;
+}
+.form-group{
+    margin: 5px;
+}
